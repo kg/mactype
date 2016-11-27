@@ -372,5 +372,5 @@ WOW_EXPORT BOOL __cdecl GetThreadContext64(HANDLE hThread, _CONTEXT64* lpContext
 WOW_EXPORT BOOL __cdecl SetThreadContext64(HANDLE hThread, _CONTEXT64* lpContext);
 WOW_EXPORT VOID __cdecl SetLastErrorFromX64Call(DWORD64 status);
 WOW_EXPORT DWORD64 __cdecl LoadLibraryW64(LPWSTR lpLibFileName);
-WOW_EXPORT void __cdecl InitWow64ext();
+// WOW_EXPORT void __cdecl InitWow64ext();
 

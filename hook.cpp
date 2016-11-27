@@ -483,7 +483,8 @@ BOOL WINAPI  DllMain(HINSTANCE instance, DWORD reason, LPVOID lpReserved)
 		//5
 		if (!IsProcessExcluded() && !IsUnload) {
 #ifndef _WIN64
-			InitWow64ext();
+            // HACK: Why the hell?
+			//InitWow64ext();
 #endif
 			if (!FontLInit()) {
 				return FALSE;

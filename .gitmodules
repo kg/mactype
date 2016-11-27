@@ -1,3 +1,6 @@
 [submodule "IniParser"]
 	path = IniParser
 	url = https://github.com/kg/IniParser.git
+[submodule "deps/wow64ext"]
+	path = deps/wow64ext
+	url = https://github.com/rwfpl/rewolf-wow64ext.git

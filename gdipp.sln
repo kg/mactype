@@ -6,12 +6,15 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MacType", "gdipp.vcxproj", "{15C33FD9-0811-4981-B08F-E0BAD74A3028}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7BB38229-1AAB-4306-A754-6ED49594E425} = {7BB38229-1AAB-4306-A754-6ED49594E425}
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8} = {9DA7F232-0096-45BC-A452-24C7F3AFA0F8}
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B} = {78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IniParser", "IniParser\IniParser\IniParser.vcxproj", "{7BB38229-1AAB-4306-A754-6ED49594E425}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freetype", "deps\freetype-2.7\builds\windows\vc2010\freetype.vcxproj", "{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wow64ext", "deps\wow64ext\src\wow64ext.vcxproj", "{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +160,44 @@ Global
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release|Win32.Build.0 = Release Multithreaded|Win32
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release|x64.ActiveCfg = Release|x64
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release|x64.Build.0 = Release|x64
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Debug Multithreaded|Win32.ActiveCfg = Debug|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Debug Multithreaded|Win32.Build.0 = Debug|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Debug Multithreaded|x64.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Debug Multithreaded|x64.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Debug Singlethreaded|Win32.ActiveCfg = Debug|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Debug Singlethreaded|Win32.Build.0 = Debug|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Debug Singlethreaded|x64.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Debug Singlethreaded|x64.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Debug|Win32.Build.0 = Debug|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Debug|x64.ActiveCfg = Debug|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx3.5-Debug|Win32.ActiveCfg = Debug|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx3.5-Debug|Win32.Build.0 = Debug|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx3.5-Debug|x64.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx3.5-Debug|x64.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx3.5-Release|Win32.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx3.5-Release|Win32.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx3.5-Release|x64.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx3.5-Release|x64.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx4-Debug|Win32.ActiveCfg = Debug|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx4-Debug|Win32.Build.0 = Debug|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx4-Debug|x64.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx4-Debug|x64.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx4-Release|Win32.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx4-Release|Win32.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx4-Release|x64.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.netfx4-Release|x64.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Release Multithreaded|Win32.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Release Multithreaded|Win32.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Release Multithreaded|x64.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Release Multithreaded|x64.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Release Singlethreaded|Win32.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Release Singlethreaded|Win32.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Release Singlethreaded|x64.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Release Singlethreaded|x64.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Release|Win32.ActiveCfg = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Release|Win32.Build.0 = Release|Win32
+		{9DA7F232-0096-45BC-A452-24C7F3AFA0F8}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
