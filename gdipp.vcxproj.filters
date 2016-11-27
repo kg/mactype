@@ -88,9 +88,6 @@
     <ClInclude Include="ft.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ft2build.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ft2vert.h">
       <Filter>Header Files</Filter>
     </ClInclude>

@@ -261,6 +261,7 @@ private:
 	BOOL m_bDirectWrite;
 	int  m_nBolderMode;
 	int  m_nGammaMode;
+	float m_fClearTypeLevelForDW;
 	float m_fGammaValue;
 	float m_fGammaValueForDW;
 	float m_fRenderWeight;
@@ -355,6 +356,7 @@ private:
 //		, m_bHaveNewerFreeType(false)
 		, m_nBolderMode(0)
 		, m_nGammaMode(0)
+		, m_fClearTypeLevelForDW(1.0f)
 		, m_fGammaValue(1.0f)
 		, m_fGammaValueForDW(0.0f)
 		, m_fRenderWeight(1.0f)
@@ -404,6 +406,7 @@ public:
 
 	int BolderMode() const { return m_nBolderMode; }
 	int GammaMode() const { return m_nGammaMode; }
+	float ClearTypeLevelForDW() const { return m_fClearTypeLevelForDW; }
 	float GammaValue() const { return m_fGammaValue; }
 	float GammaValueForDW() const {	return m_fGammaValueForDW;	}
 	float RenderWeight() const { return m_fRenderWeight; }
