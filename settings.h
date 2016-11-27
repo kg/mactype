@@ -10,7 +10,7 @@
 #ifdef _WIN64
 	#pragma comment (lib, "x64/release/iniparser64.lib")
 #else
-	#pragma comment (lib, "x86/release/iniparser.lib")
+	#pragma comment (lib, "release/iniparser.lib")
 #endif
 
 #define MACTYPE_VERSION		20160830

@@ -109,7 +109,7 @@
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>freetype.lib;usp10.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>deps\freetype-2.7\objs\vc2010\Win32\freetype27MT.lib;usp10.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)MacType.dll</OutputFile>
       <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ModuleDefinitionFile>expfunc.def</ModuleDefinitionFile>
@@ -169,7 +169,7 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>freetype.lib;usp10.lib;dwrite.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>deps\freetype-2.7\objs\vc2010\Win32\freetype27MT.lib;usp10.lib;dwrite.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)MacType.dll</OutputFile>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <ModuleDefinitionFile>expfunc.def</ModuleDefinitionFile>
